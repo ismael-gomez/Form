@@ -1,0 +1,122 @@
+:root{
+    --fuentePrincipal:'Fredoka One', cursive;
+    --fuenteSecundaria:'Koulen', cursive;
+    --colorPrincipal:#53BD74;
+    --colorSecundario:#377D4D;
+    --colorTercero:#FEE8FE;
+    --colorCuarto:#9DD6FC;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* formulario  */
+.formulario{
+    background-color: #b3f4f6;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 10rem;
+    padding: 5rem 5rem;
+    border-radius: 2rem;
+}
+.formulario__contenedor {
+    background-color: rgb(81, 214, 114);
+    opacity: .8;
+    width: 100rem;
+    border-radius: 5rem;
+    padding: 3rem;
+}
+
+.tamano{
+    font-size: 2rem;
+    font-family: var(--fuentePrincipal);
+}
+.contenedor__nombre{
+    margin: 2rem;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__input{
+    border-radius: 1rem;
+
+}
+.dentro{
+    position: absolute;
+    left: 30rem;
+}
+.contenedor__sexo{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__separador{
+    padding: 2rem;
+}
+.contenedor__fecha{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__datos{
+    padding-left: 5rem ;
+}
+.contenedor__pregunta1{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__pregunta2{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__pregunta3{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.823);
+    opacity: .9;
+    border-radius: 1rem;
+}
+.contenedor__boton {
+    display: flex;
+    justify-content: center ;
+}
+
+.boton{
+    font-size: 3rem;
+    border-radius: 1rem;
+}
+
+.error{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #b3f4f6;
+    border-radius: 1rem;
+}
+.error>li{
+    font-size: 2rem;  
+    padding: 1rem;
+}

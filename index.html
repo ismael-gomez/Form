@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Registro</title>
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<form action="" class="formulario" id="formulario" name="formulario">
+			<div class="formulario__contenedor">
+				<div class="contenedor__nombre">
+					<input class="tamano" type="text" name="nombre" placeholder="Nombre">
+					<br>
+					<input class="tamano" type="email" name="correo" placeholder="Correo">
+				</div>
+						
+				<div class="contenedor__sexo">
+					<input class="contenedor__separador tamano" type="radio" name="sexo" id="hombre" value="hombre">
+					<label class="tamano" for="hombre" class="label-radio hombre">Hombre</label>
+							
+					<input class="contenedor__separador tamano" type="radio" name="sexo" id="mujer" value="mujer">
+					<label class="tamano" for="mujer" class="label-radio mujer">Mujer</label>
+				</div>
+						
+				<div class="contenedor__pregunta1">
+					<label class="tamano">Hay algo que pueda hacer por el cambio climatico?</label>
+					<br>
+					<br>
+					<input class="tamano" type="radio" name="pregunta1" id="si" value="si">
+					<label class="tamano" for="si">Si</label>
+					<input class="tamano" type="radio" name="pregunta1" id="no" value="no">
+					<label class="tamano" for="no">No</label>
+					<br>
+					<br>
+					<label class="tamano">Por que?</label>
+					<br>
+					<br>
+					<input class="contenedor__input tamano" name="porque" type="text">
+				</div>
+				<div class="contenedor__pregunta2">
+					<label class="tamano">Es inutil frenar el cambio climatico?</label>
+					<br>
+					<br>
+					<input class="tamano" type="radio" name="pregunta2" id="si" value="si">
+					<label class="tamano" for="si">Si</label>
+					<input class="tamano" type="radio" name="pregunta2" id="no" value="no">
+					<label class="tamano" for="no">No</label>
+					<br>
+					<br>
+					<label class="tamano">Por que?</label>
+					<br>
+					<br>
+					<input name="porque2" class="contenedor__input tamano"  type="text">
+				</div>
+
+				<div class="contenedor__pregunta3">
+					<label class="tamano"> Por que queres ayudar a cuidar el medio ambiente?</label>
+					<br>
+					<br>
+					<input class="contenedor__input tamano" name="pregunta3" type="text">
+				</div>
+
+				<div class="contenedor__pregunta2">
+					<input class="tamano" type="checkbox" name="terminos" id="terminos">
+					<label class="tamano" for="terminos">Acepto Terminos y Condiciones</label>
+				</div>
+
+				<ul class="error" id="error"></ul>
+
+				<div class="contenedor__boton"><input class="boton" type="submit" value="Registrarse"></div>
+			</div>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
